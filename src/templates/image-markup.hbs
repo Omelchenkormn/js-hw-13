@@ -1,0 +1,30 @@
+{{#each this}}
+<div class="card photo-card" style="width: 18rem;">
+        <a href="{{largeImageURL}}" 
+            data-pswp-width="1800" 
+            data-pswp-height="1200" 
+            target="_blank"></a>
+    <img src="{{webformatURL}}" class="card-img-top" height="80px" alt="{{tags}}" loading="lazy" />
+    <div class="card-body info">
+        <p class="card-text info-item">
+        <b>Likes</b>
+        {{likes}}
+        </p>
+        <p class="card-text info-item">
+        <b>Views</b>
+        {{views}}
+        </p>
+        <p class="card-text info-item">
+        <b>Comments</b>
+        {{comments}}
+        </p>
+        <p class="card-text info-item">
+        <b>Downloads</b>
+        {{downloads}}
+        </p>
+    </div>
+</div>
+{{/each}}
+
+
+

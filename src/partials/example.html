@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- <form class="search-form" id="search-form">
+    <input type="text" name="searchQuery"  autocomplete="off" placeholder="Search images..." />
+    <button type="submit">Search</button>
+  </form> -->
+  <form class="row g-3 search-form ">
+    <div class="col-auto">
+    </div>
+    <div class="col-auto">
+      <label for="inputPassword2" class="visually-hidden">Пароль</label>
+      <input type="text" name="searchQuery" autocomplete="off" class="form-control"  placeholder="Search images...">
+    </div>
+    <div class="col-auto">
+      <!-- <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." /> -->
+      <button type="submit" class="btn btn-primary mb-3 searchQuery">Send</button>
+    </div>
+  </form>
+  <div class="conteiner gallery" >
+    <!-- Карточки изображений -->
+  </div>
+  <div class="button-load ">
+    <button type="button" class="btn btn-primary button load-more-btn is-hidden" data-action="load-more">
+      Load more
+    </button>
+  </div>
+  <div class="spinner d-flex justify-content-center d-none">
+    <div class="spinner-border" role="status is-hidden">
+    </div>
+  </div>
+  <div class="observer"></div>
+</body>
+</html>

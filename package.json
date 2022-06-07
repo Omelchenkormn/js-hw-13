@@ -1,0 +1,29 @@
+{
+  "name": "vite-project-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "vite",
+    "template"
+  ],
+  "author": "Oleksandr Kropivnyi <kropivnyy@gmail.com>",
+  "homepage": "https://Omelchenkormn.github.io/js-hw-13",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/js-hw-13/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.51.0",
+    "vite": "2.9.8",
+    "vite-plugin-handlebars": "^1.6.0",
+    "vite-plugin-html": "^3.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "notiflix": "^3.2.5",
+    "photoswipe": "^5.2.7"
+  }
+}
